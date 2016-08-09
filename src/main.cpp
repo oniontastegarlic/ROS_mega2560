@@ -26,7 +26,7 @@ void loop()
 }
 */
 //ROS Subscriber Test
-/*
+
 #include "std_msgs/UInt16.h"
 
 ros::NodeHandle nh;
@@ -47,17 +47,4 @@ void setup(){
 void loop(){
   nh.spinOnce();
   delay(1);
-}
-*/
-
-int ctrlPin = 3;
-int val = 0;
-
-void setup(){
-
-}
-
-void loop(){
-  analogWrite(ctrlPin, val);
-
 }
